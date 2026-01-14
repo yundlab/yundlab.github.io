@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+html {font-weight:400;/*-webkit-text-size-adjust:none*/}/*10px/11.5*/
+body {font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; line-height:1; background:#fff; color:#000;}
+i {font-style:normal; font-weight:400;}
+.wrap {overflow:hidden;}
+
+
+h1 {font-size: 3rem;; text-align: center; margin:40px auto 30px;}
+.txt_welcome {font-size: 0.8em; text-align: center; margin-bottom: 80px;}
+.gnb {width:50%; display:flex; margin:0 auto 50px;}
+.gnb li {width:100%; text-align:center;}
+.gnb li { padding:0 97px 0 0 ;}
+.gnb li:nth-child(3) {padding:0;}
+.gnb li a {display:block; height: 40px; font-size:1.4rem; line-height:40px;}
+.gnb li a:hover {background-color:#907354; color:#fff;}
+
+.card_portfolio{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card {
+    text-align: center;
+}
+.card_title {
+    font-size:20px;
+}
+.card h2 {margin-top:20px;}
+.card p {margin-bottom:20px;}
+.card_button {
+    font-size: 16px;
+    width: 150px;
+    height: 30px;
+}
+.card_img {
+
+    height: 250px;
+}
